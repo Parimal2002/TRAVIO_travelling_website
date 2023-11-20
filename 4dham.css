@@ -1,0 +1,67 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+section
+{
+    width: 100%;
+    height: 100vh;
+    background: url(Images/4dham.jpg);
+    background-size: cover;
+    padding: 0 100px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+
+}
+.box
+{
+    position: relative;
+    max-width: 600px;
+    padding: 50px;
+    background: rgba(250, 250, 250, 0.90);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+    border-radius: 20px;
+    
+
+}
+h2{
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    color: #044463;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+h4{
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+    text-align: center;
+}
+p{
+    font-size: 16px;
+    color: black;
+}
+.book {
+    background-color: #ff920d;
+    font-size: 20px;
+    border: 0px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+    color: aliceblue;
+    box-shadow: 0 1px 20px rgba(255, 255, 255, 0.69);
+}
+.icon{
+    color: black;
+    font-size: 3em;
+    margin-left: 20px;
+}
